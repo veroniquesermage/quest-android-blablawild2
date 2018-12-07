@@ -8,6 +8,9 @@ import java.util.Date;
 
 public class ItineraryModel {
 
+    public ItineraryModel() {
+    }
+
     private String departure;
     private String destination;
     private String driver;
