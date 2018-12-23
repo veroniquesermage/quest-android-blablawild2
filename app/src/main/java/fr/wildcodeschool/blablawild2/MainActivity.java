@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
 //                Toast.makeText(MainActivity.this, "Failed to read value.", Toast.LENGTH_LONG).show();
 //            }
 //        });
+
+
         itineraryRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
